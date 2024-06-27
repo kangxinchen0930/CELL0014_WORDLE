@@ -204,4 +204,5 @@ while True:
 
             # tell the user when will the next word be generated
             print('\nThe time left until your next Wordle is:')
-            countdown(
+            countdown(time_until_tomorrow())
+            break
